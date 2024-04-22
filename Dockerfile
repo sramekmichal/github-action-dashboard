@@ -16,6 +16,11 @@ RUN npm rebuild
 
 # production stage & clean up
 FROM base as release
+
+RUN addgroup --system <group>
+RUN adduser --system <user> --ingroup <group>
+USER <user>:<group>
+
 ENV NODE_ENV production
 COPY client/dist ./client/dist/
 COPY actions.js configure.js getinstallationid.js github.js index.js routes.js runstatus.js webhooks.js ./
