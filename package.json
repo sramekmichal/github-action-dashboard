@@ -22,7 +22,7 @@
     "@octokit/rest": "^19.0.7",
     "@octokit/webhooks": "^9.24.0",
     "@vue/runtime-dom": "^3.2.47",
-    "body-parser": "^1.20.0",
+    "body-parser": "^1.20.2",
     "connect-history-api-fallback": "^1.6.0",
     "dayjs": "^1.11.7",
     "debug": "^4.3.4",
