@@ -30,7 +30,7 @@
     "express": "^4.19.2",
     "jest": "^28.1.0",
     "lodash": "^4.17.21",
-    "p-limit": "^3.1.0",
+    "p-limit": "^5.0.0",
     "socket.io": "^4.5.1"
   },
   "devDependencies": {
